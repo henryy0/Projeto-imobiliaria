@@ -1,0 +1,123 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho da página */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para o formulário de busca */
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="search"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para as seções de imóveis */
+  section {
+    margin: 20px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  section li:last-child {
+    margin-right: 0;
+  }
+  
+  section li h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  section li img {
+    display: block;
+    width: 100%;
+  }
+  
+  section li p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  section li p .preco {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para o rodapé da página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
